@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <titl></title>
+        <link rel="stylesheet" href="css.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+    <section id="banner">
+        <img src="img/images.jpg" class="logo">
+        <div class="banner-text">
+            <h1>100% Voetbal</h1>
+            <p>everything you need to know about Football</p>
+            <div class="banner-btn">
+                <a href="#"><span></span>learn more</a>
+            </div>
+        </div>
+
+    </section>
+
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="#banner">HOME</a></li>
+                <li><a href="#Voetbal">geschiedenis</a></li>
+                <li><a href="#regels">regels</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="img/menu-icon-24.png" id="menu">
+        </div>
+        
+        <!--Voetbal-->
+
+        <section id="Voetbal">
+        <div class="title-text">
+        <p>100% Voetbal</p>
+        <h1>GESCHIEDENIS</h1>
+        </div>
+        <div class="geschiedenis-box">
+            <div class="geschiedenis">
+                <h1>geschiedenis</h1>
+                <div class="geschiedenis-desc">
+                <div class="geschiedenis-icon">
+                    <i class="fa fa-history" aria-hidden="true"></i>
+                </div> 
+                <div class="geschiedenis-text">
+                    <p>Voetbal is onstaan rond 1863. In dat jaar werd de Football Association opgericht. Deze club van voetballers bedachten een nieuw spel dat lijkt op het huidige voetbal en rugby. Het moderne voetbal (dus het voetbal zoals het nu nog wordt gespeeld) is in het begin van de vorige eeuw in Engeland ontstaan. In Engeland werd er op school een trapspel gespeeld. Dat spel werd overal gespeeld: op een open veld, op speelpleinen en op straat.</p>
+                </div>
+                </div>
+    
+            </div>
+            <div class="geschiedenis-img">
+                <img src="img/geschiedenis.png">
+            </div>
+        </div>
+        </section>
+        <!--regels-->
+        <section id="regels">
+            <div class="title-text">
+                <p>100% Voetbal</p>
+                <h1>REGELS</h1>
+            </div>
+
+            <div class="regels-box">
+                <div class="single-regels">
+                <img src="img/regels.png">
+                <div class="overlay"></div>
+                <div class="regels-desc">
+                    <h3>regels</h3>
+                    <hr>
+                    <p>De grootste sport van de wereld is voetbal. Bij deze sport strijden twee ploegen van elf spelers tegen elkaar, het doel is om meer doelpunten te maken dan de tegenstander. De bal mag met alle lichaamsdelen worden aangeraakt, behalve met de armen en handen. Normaliter zal het spel worden begeleidt door één scheidsrechter, plus twee grensrechters. Bij belangrijke wedstrijden staan er nog twee extra leidsmannen langs het veld.
+                        De coach kan een eigen spelsysteem bedenken en door de spelers laten uitvoeren. Vroeger werd er voornamelijk met vier verdedigers, vier middenvelders en twee aanvallers gespeeld. Tegenwoordig kiezen veel trainers voor drie middenvelders en drie aanvallers. Tijdens een voetbalwedstrijd mag de coach maximaal driemaal wisselen.</p>
+                </div>
+               
+            </div>
+
+        </section>
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+
+            sideNav.style.right = "-250px";
+
+            menuBtn.onclick = function(){
+                if(sideNav.style.right == "-250px"){
+                    sideNav.style.right = "0";
+                }
+                else{
+                    sideNav.style.right = "-250px";
+                }
+            }
+        </script>
+<div
+</body>
+</html>
